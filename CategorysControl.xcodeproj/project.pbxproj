@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		462AFEA01B76002E00306275 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 462AFE9F1B76002E00306275 /* main.m */; };
-		462AFEDA1B7607DF00306275 /* NSArray-RandomObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 462AFED91B7607DF00306275 /* NSArray-RandomObjects.m */; };
-		462AFEDD1B7612FB00306275 /* NSArray-Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = 462AFEDC1B7612FB00306275 /* NSArray-Shuffle.m */; };
-		46577F2B1B7C9BF900E34C3B /* TestSummary.m in Sources */ = {isa = PBXBuildFile; fileRef = 46577F2A1B7C9BF900E34C3B /* TestSummary.m */; };
+		46577F341B7CA71E00E34C3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46577F2C1B7CA71E00E34C3B /* main.m */; };
+		46577F351B7CA71E00E34C3B /* NSArray-RandomObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 46577F2E1B7CA71E00E34C3B /* NSArray-RandomObjects.m */; };
+		46577F361B7CA71E00E34C3B /* NSArray-Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = 46577F301B7CA71E00E34C3B /* NSArray-Shuffle.m */; };
+		46577F381B7CA71E00E34C3B /* TestSummary.m in Sources */ = {isa = PBXBuildFile; fileRef = 46577F331B7CA71E00E34C3B /* TestSummary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,13 +27,13 @@
 
 /* Begin PBXFileReference section */
 		462AFE9C1B76002E00306275 /* CategorysControl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CategorysControl; sourceTree = BUILT_PRODUCTS_DIR; };
-		462AFE9F1B76002E00306275 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		462AFED81B7607DF00306275 /* NSArray-RandomObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray-RandomObjects.h"; path = "../NSArray-RandomObjects.h"; sourceTree = "<group>"; };
-		462AFED91B7607DF00306275 /* NSArray-RandomObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray-RandomObjects.m"; path = "../NSArray-RandomObjects.m"; sourceTree = "<group>"; };
-		462AFEDB1B7612FB00306275 /* NSArray-Shuffle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray-Shuffle.h"; sourceTree = "<group>"; };
-		462AFEDC1B7612FB00306275 /* NSArray-Shuffle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray-Shuffle.m"; sourceTree = "<group>"; };
-		46577F291B7C9BF900E34C3B /* TestSummary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSummary.h; sourceTree = "<group>"; };
-		46577F2A1B7C9BF900E34C3B /* TestSummary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSummary.m; sourceTree = "<group>"; };
+		46577F2C1B7CA71E00E34C3B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
+		46577F2D1B7CA71E00E34C3B /* NSArray-RandomObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray-RandomObjects.h"; sourceTree = SOURCE_ROOT; };
+		46577F2E1B7CA71E00E34C3B /* NSArray-RandomObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray-RandomObjects.m"; sourceTree = SOURCE_ROOT; };
+		46577F2F1B7CA71E00E34C3B /* NSArray-Shuffle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray-Shuffle.h"; sourceTree = SOURCE_ROOT; };
+		46577F301B7CA71E00E34C3B /* NSArray-Shuffle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray-Shuffle.m"; sourceTree = SOURCE_ROOT; };
+		46577F321B7CA71E00E34C3B /* TestSummary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSummary.h; sourceTree = SOURCE_ROOT; };
+		46577F331B7CA71E00E34C3B /* TestSummary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSummary.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +66,13 @@
 		462AFE9E1B76002E00306275 /* BaseTry */ = {
 			isa = PBXGroup;
 			children = (
-				462AFED81B7607DF00306275 /* NSArray-RandomObjects.h */,
-				462AFED91B7607DF00306275 /* NSArray-RandomObjects.m */,
-				462AFE9F1B76002E00306275 /* main.m */,
-				46577F291B7C9BF900E34C3B /* TestSummary.h */,
-				46577F2A1B7C9BF900E34C3B /* TestSummary.m */,
-				462AFEDB1B7612FB00306275 /* NSArray-Shuffle.h */,
-				462AFEDC1B7612FB00306275 /* NSArray-Shuffle.m */,
+				46577F2C1B7CA71E00E34C3B /* main.m */,
+				46577F2D1B7CA71E00E34C3B /* NSArray-RandomObjects.h */,
+				46577F2E1B7CA71E00E34C3B /* NSArray-RandomObjects.m */,
+				46577F2F1B7CA71E00E34C3B /* NSArray-Shuffle.h */,
+				46577F301B7CA71E00E34C3B /* NSArray-Shuffle.m */,
+				46577F321B7CA71E00E34C3B /* TestSummary.h */,
+				46577F331B7CA71E00E34C3B /* TestSummary.m */,
 			);
 			path = BaseTry;
 			sourceTree = "<group>";
@@ -133,10 +133,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				462AFEDA1B7607DF00306275 /* NSArray-RandomObjects.m in Sources */,
-				462AFEDD1B7612FB00306275 /* NSArray-Shuffle.m in Sources */,
-				46577F2B1B7C9BF900E34C3B /* TestSummary.m in Sources */,
-				462AFEA01B76002E00306275 /* main.m in Sources */,
+				46577F351B7CA71E00E34C3B /* NSArray-RandomObjects.m in Sources */,
+				46577F361B7CA71E00E34C3B /* NSArray-Shuffle.m in Sources */,
+				46577F381B7CA71E00E34C3B /* TestSummary.m in Sources */,
+				46577F341B7CA71E00E34C3B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

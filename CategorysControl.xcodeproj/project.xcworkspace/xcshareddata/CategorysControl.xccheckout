@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F48E1828-4979-46B4-8B8F-F9706953FF5A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>.</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>28DCCD8BC78A054BC41A96357347923006B1319C</key>
+		<string>https://github.com/zgpeace/Category.git</string>
+		<key>31A890F0E0A710186E4F76E4F7A7AEC8E6E66C28</key>
+		<string>https://github.com/zgpeace/Category.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>.</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>28DCCD8BC78A054BC41A96357347923006B1319C</key>
+		<string>..</string>
+		<key>31A890F0E0A710186E4F76E4F7A7AEC8E6E66C28</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zgpeace/Category.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>28DCCD8BC78A054BC41A96357347923006B1319C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>31A890F0E0A710186E4F76E4F7A7AEC8E6E66C28</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>28DCCD8BC78A054BC41A96357347923006B1319C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CategorysControl.xcodeproj</string>
+		</dict>
+	</array>
+</dict>
+</plist>
