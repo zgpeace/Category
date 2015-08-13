@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		462AFEA01B76002E00306275 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 462AFE9F1B76002E00306275 /* main.m */; };
+		462AFEDA1B7607DF00306275 /* NSArray-RandomObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 462AFED91B7607DF00306275 /* NSArray-RandomObjects.m */; };
+		462AFEDD1B7612FB00306275 /* NSArray-Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = 462AFEDC1B7612FB00306275 /* NSArray-Shuffle.m */; };
+		46577F2B1B7C9BF900E34C3B /* TestSummary.m in Sources */ = {isa = PBXBuildFile; fileRef = 46577F2A1B7C9BF900E34C3B /* TestSummary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		462AFE9C1B76002E00306275 /* BaseTry */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BaseTry; sourceTree = BUILT_PRODUCTS_DIR; };
+		462AFE9C1B76002E00306275 /* CategorysControl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CategorysControl; sourceTree = BUILT_PRODUCTS_DIR; };
 		462AFE9F1B76002E00306275 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		462AFED81B7607DF00306275 /* NSArray-RandomObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray-RandomObjects.h"; path = "../NSArray-RandomObjects.h"; sourceTree = "<group>"; };
+		462AFED91B7607DF00306275 /* NSArray-RandomObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray-RandomObjects.m"; path = "../NSArray-RandomObjects.m"; sourceTree = "<group>"; };
+		462AFEDB1B7612FB00306275 /* NSArray-Shuffle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray-Shuffle.h"; sourceTree = "<group>"; };
+		462AFEDC1B7612FB00306275 /* NSArray-Shuffle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray-Shuffle.m"; sourceTree = "<group>"; };
+		46577F291B7C9BF900E34C3B /* TestSummary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSummary.h; sourceTree = "<group>"; };
+		46577F2A1B7C9BF900E34C3B /* TestSummary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSummary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +58,7 @@
 		462AFE9D1B76002E00306275 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				462AFE9C1B76002E00306275 /* BaseTry */,
+				462AFE9C1B76002E00306275 /* CategorysControl */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,7 +66,13 @@
 		462AFE9E1B76002E00306275 /* BaseTry */ = {
 			isa = PBXGroup;
 			children = (
+				462AFED81B7607DF00306275 /* NSArray-RandomObjects.h */,
+				462AFED91B7607DF00306275 /* NSArray-RandomObjects.m */,
 				462AFE9F1B76002E00306275 /* main.m */,
+				46577F291B7C9BF900E34C3B /* TestSummary.h */,
+				46577F2A1B7C9BF900E34C3B /* TestSummary.m */,
+				462AFEDB1B7612FB00306275 /* NSArray-Shuffle.h */,
+				462AFEDC1B7612FB00306275 /* NSArray-Shuffle.m */,
 			);
 			path = BaseTry;
 			sourceTree = "<group>";
@@ -65,9 +80,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		462AFE9B1B76002E00306275 /* BaseTry */ = {
+		462AFE9B1B76002E00306275 /* CategorysControl */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 462AFEA31B76002E00306275 /* Build configuration list for PBXNativeTarget "BaseTry" */;
+			buildConfigurationList = 462AFEA31B76002E00306275 /* Build configuration list for PBXNativeTarget "CategorysControl" */;
 			buildPhases = (
 				462AFE981B76002E00306275 /* Sources */,
 				462AFE991B76002E00306275 /* Frameworks */,
@@ -77,9 +92,9 @@
 			);
 			dependencies = (
 			);
-			name = BaseTry;
+			name = CategorysControl;
 			productName = BaseTry;
-			productReference = 462AFE9C1B76002E00306275 /* BaseTry */;
+			productReference = 462AFE9C1B76002E00306275 /* CategorysControl */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 462AFE971B76002E00306275 /* Build configuration list for PBXProject "BaseTry" */;
+			buildConfigurationList = 462AFE971B76002E00306275 /* Build configuration list for PBXProject "CategorysControl" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,7 +123,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				462AFE9B1B76002E00306275 /* BaseTry */,
+				462AFE9B1B76002E00306275 /* CategorysControl */,
 			);
 		};
 /* End PBXProject section */
@@ -118,6 +133,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				462AFEDA1B7607DF00306275 /* NSArray-RandomObjects.m in Sources */,
+				462AFEDD1B7612FB00306275 /* NSArray-Shuffle.m in Sources */,
+				46577F2B1B7C9BF900E34C3B /* TestSummary.m in Sources */,
 				462AFEA01B76002E00306275 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,21 +223,21 @@
 		462AFEA41B76002E00306275 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CategorysControl;
 			};
 			name = Debug;
 		};
 		462AFEA51B76002E00306275 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CategorysControl;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		462AFE971B76002E00306275 /* Build configuration list for PBXProject "BaseTry" */ = {
+		462AFE971B76002E00306275 /* Build configuration list for PBXProject "CategorysControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				462AFEA11B76002E00306275 /* Debug */,
@@ -228,13 +246,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		462AFEA31B76002E00306275 /* Build configuration list for PBXNativeTarget "BaseTry" */ = {
+		462AFEA31B76002E00306275 /* Build configuration list for PBXNativeTarget "CategorysControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				462AFEA41B76002E00306275 /* Debug */,
 				462AFEA51B76002E00306275 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
