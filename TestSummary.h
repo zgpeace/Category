@@ -12,4 +12,10 @@
 
 + (void)randomArrayCategory;
 
+/** " * const"  **/
++ (void)starConst;
+
+/** " const *"  **/
++ (void)constStar;
+
 @end

@@ -12,8 +12,9 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        [TestSummary randomArrayCategory];
-        
+//        [TestSummary randomArrayCategory];
+        [TestSummary starConst];
+        [TestSummary constStar];
         
     }
     return 0;
