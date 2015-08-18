@@ -18,4 +18,6 @@
 /** " const *"  **/
 + (void)constStar;
 
++ (void)blockDefinition;
+
 @end

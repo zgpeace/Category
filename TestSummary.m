@@ -55,6 +55,38 @@
     printf("%s \n", ptr1);
 }
 
+
++ (void)blockDefinition
+{
+    ^{ printf("Hello, World!\n"); }();
+    
+    int a = 100;
+    void (^block2)(void) = ^{
+        printf("%d\n", a);
+    };
+    
+    block2();
+    
+    __block int i = 1024;
+    void (^block1)(void) = ^{
+        printf("%d\n", i);
+        i = 1023;
+    };
+    block1();
+    
+    printf("%d\n",i);
+    
+    
+    __block int i3 = 1024;
+    void (^block3)(NSString *) = ^(NSString *s){
+        printf("%d\n", i3);
+        printf("%s\n",s);
+        NSLog(@"%@",s);
+        i = 1023;
+    } ;
+    block3(@"abcd");
+}
+
 @end
 
 
