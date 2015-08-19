@@ -87,6 +87,87 @@
     block3(@"abcd");
 }
 
++ (void)blockDirectUse
+{
+    int result = ^(int a){return a*a;}(5);
+    NSLog(@"%d", result);
+}
+
++ (void)blockBlockPointer
+{
+    //declare one square for Block Pointer, 使其指向的Block有一个int输入和int输出
+    int (^square)(int);
+    //将Block实体指定给square
+    square = ^(int a){return a*a; };
+    //调用方法， 感觉是不是很像function的用法？
+    int result = square(5);
+    NSLog(@"%d", result);
+}
+
++ (void)blockFuction
+{
+
+//    void myFunction(int (^mySquare)(int)); // function defination , Block as parameter
+//
+//    int (^mySquare)(int) = ^(int a){return a*a; }; //define a mySquare with Block pointer variable
+
+    
+}
+
+
+
++ (void)myFuction:(int(^)(int))square
+{
+    NSLog(@"%@", square);
+}
+
++ (void)blockConstCopy
+{
+    int outA = 8;
+    //block 里面可以读取同一类型的outA的值
+    int (^myPtr)(int) = ^(int a){ return outA + a;};
+    outA = 5; //在调用myPtr之前改变outA的值
+    int result = myPtr(3); // result is 11
+    NSLog(@"result=%d", result);
+}
+
++ (void)blockArrayCopy
+{
+    NSMutableArray *mutableArray = [NSMutableArray arrayWithObjects:@"one", @"two", @"three", nil];
+    int result1 = ^(int a){[mutableArray removeLastObject]; return a*a;}(5);
+    NSLog(@"test array : %@", mutableArray);
+    NSLog(@"%d",result1);
+}
+
++ (void)blockStatic
+{
+    static int outA = 8;
+    int (^myPtr)(int) = ^(int a){return outA + a;};
+    outA = 5;
+    int result = myPtr(3); //result = 8
+    NSLog(@"result=%d", result);
+}
+
++ (void)blockStaticAlter
+{
+    static int outA = 8;
+    int (^myPtr)(int) = ^(int a){ outA = 5; return outA + a; };
+    int result = myPtr(3); // result = 8;
+    NSLog(@"result = %d", result);
+}
+
++ (void)block__variable
+{
+    __block int num = 5;
+    
+    int (^myPtr)(int) = ^(int a){return num++;};
+    int (^myPtr2)(int) = ^(int a){return num++;};
+    int result = myPtr(0);  // result = 5, num = 6;
+    NSLog(@"result = %d", result);
+    result = myPtr2(0);  // result = 6, num =7;
+    NSLog(@"result = %d", result);
+}
+
 @end
 
 

@@ -20,4 +20,20 @@
 
 + (void)blockDefinition;
 
++ (void)blockDirectUse;
+
++ (void)blockBlockPointer;
+
++ (void)myFuction:(int(^)(int))square;
+
++ (void)blockConstCopy;
+
++ (void)blockArrayCopy;
+
++ (void)blockStatic;
+
++ (void)blockStaticAlter;
+
++ (void)block__variable;
+
 @end
