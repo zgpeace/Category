@@ -8,6 +8,9 @@
 
 #import "TestSummary.h"
 #import "NSArray-RandomObjects.h"
+#import "Target.h"
+#import "Observer.h"
+#import "TargetWrapper.h"
 
 @implementation TestSummary
 
@@ -166,6 +169,39 @@
     NSLog(@"result = %d", result);
     result = myPtr2(0);  // result = 6, num =7;
     NSLog(@"result = %d", result);
+}
+
++ (void)kvoBasic
+{
+    Observer *observer = [[Observer alloc] init];
+    Target *target = [[Target alloc] init];
+    [target addObserver:observer forKeyPath:@"age"
+                options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld
+                context:(__bridge void *)([Target class])];
+    [target addObserver:observer forKeyPath:@"name"
+                options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld
+                context:(__bridge void *)([Target class])];
+    
+    [target setAge:30];
+    [target setName:@"zgpeace"];
+    
+    [target removeObserver:observer forKeyPath:@"age"];
+    [target removeObserver:observer forKeyPath:@"name"];
+}
+
++ (void)kvoDependency
+{
+    Observer *observer = [[Observer alloc] init];
+    Target *target = [[Target alloc] init];
+    
+    TargetWrapper *wrapper = [[TargetWrapper alloc] init:target];
+    
+    [wrapper addObserver:observer forKeyPath:@"information" options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld context:(__bridge void *)([TargetWrapper class])];
+    
+    [target setAge:30];
+    [target setGrade:1];
+    [wrapper removeObserver:observer forKeyPath:@"information"];
+
 }
 
 @end

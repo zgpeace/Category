@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4603CFA21B85B02B000966CD /* Observer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4603CFA11B85B02B000966CD /* Observer.m */; };
+		4603CFA51B85B0A8000966CD /* Target.m in Sources */ = {isa = PBXBuildFile; fileRef = 4603CFA41B85B0A8000966CD /* Target.m */; };
+		4603CFA81B86CBC8000966CD /* TargetWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4603CFA71B86CBC8000966CD /* TargetWrapper.m */; };
+		4603CFAB1B871AD2000966CD /* Foo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4603CFAA1B871AD2000966CD /* Foo.m */; };
 		46577F341B7CA71E00E34C3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46577F2C1B7CA71E00E34C3B /* main.m */; };
 		46577F351B7CA71E00E34C3B /* NSArray-RandomObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 46577F2E1B7CA71E00E34C3B /* NSArray-RandomObjects.m */; };
 		46577F361B7CA71E00E34C3B /* NSArray-Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = 46577F301B7CA71E00E34C3B /* NSArray-Shuffle.m */; };
@@ -26,6 +30,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4603CFA01B85B02B000966CD /* Observer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observer.h; sourceTree = SOURCE_ROOT; };
+		4603CFA11B85B02B000966CD /* Observer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Observer.m; sourceTree = SOURCE_ROOT; };
+		4603CFA31B85B0A8000966CD /* Target.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target.h; sourceTree = SOURCE_ROOT; };
+		4603CFA41B85B0A8000966CD /* Target.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target.m; sourceTree = SOURCE_ROOT; };
+		4603CFA61B86CBC8000966CD /* TargetWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TargetWrapper.h; sourceTree = SOURCE_ROOT; };
+		4603CFA71B86CBC8000966CD /* TargetWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TargetWrapper.m; sourceTree = SOURCE_ROOT; };
+		4603CFA91B871AD2000966CD /* Foo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Foo.h; sourceTree = SOURCE_ROOT; };
+		4603CFAA1B871AD2000966CD /* Foo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Foo.m; sourceTree = SOURCE_ROOT; };
 		462AFE9C1B76002E00306275 /* CategorysControl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CategorysControl; sourceTree = BUILT_PRODUCTS_DIR; };
 		46577F2C1B7CA71E00E34C3B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
 		46577F2D1B7CA71E00E34C3B /* NSArray-RandomObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray-RandomObjects.h"; sourceTree = SOURCE_ROOT; };
@@ -73,6 +85,14 @@
 				46577F301B7CA71E00E34C3B /* NSArray-Shuffle.m */,
 				46577F321B7CA71E00E34C3B /* TestSummary.h */,
 				46577F331B7CA71E00E34C3B /* TestSummary.m */,
+				4603CFA01B85B02B000966CD /* Observer.h */,
+				4603CFA11B85B02B000966CD /* Observer.m */,
+				4603CFA31B85B0A8000966CD /* Target.h */,
+				4603CFA41B85B0A8000966CD /* Target.m */,
+				4603CFA61B86CBC8000966CD /* TargetWrapper.h */,
+				4603CFA71B86CBC8000966CD /* TargetWrapper.m */,
+				4603CFA91B871AD2000966CD /* Foo.h */,
+				4603CFAA1B871AD2000966CD /* Foo.m */,
 			);
 			path = BaseTry;
 			sourceTree = "<group>";
@@ -134,7 +154,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				46577F351B7CA71E00E34C3B /* NSArray-RandomObjects.m in Sources */,
+				4603CFA81B86CBC8000966CD /* TargetWrapper.m in Sources */,
 				46577F361B7CA71E00E34C3B /* NSArray-Shuffle.m in Sources */,
+				4603CFA51B85B0A8000966CD /* Target.m in Sources */,
+				4603CFAB1B871AD2000966CD /* Foo.m in Sources */,
+				4603CFA21B85B02B000966CD /* Observer.m in Sources */,
 				46577F381B7CA71E00E34C3B /* TestSummary.m in Sources */,
 				46577F341B7CA71E00E34C3B /* main.m in Sources */,
 			);

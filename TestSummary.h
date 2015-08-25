@@ -36,4 +36,8 @@
 
 + (void)block__variable;
 
++ (void)kvoBasic;
+
++ (void)kvoDependency;
+
 @end
